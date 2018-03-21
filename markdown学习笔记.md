@@ -33,3 +33,29 @@ Markdown 支持有序列表和无序列表。
 
 ## 4.markdown常用用法の引用
 引用以>来表示，引用中支持多级引用、标题、列表、代码块、分割线等常规语法。
+> 这是一段引用
+> 
+> 这是引用的代码块形式
+>     
+> 代码例子：
+ 
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+> 一级引用
+> > 二级引用
+> > > 三级引用
+
+> #### 这是一个四级标题
+> 
+> 1. 这是第一行列表项
+> 2. 这是第二行列表项
+
+## 5.markdown常用语法の强调
+两个*或-代表加粗，一个*或-代表斜体，~~ 代表删除。
+
+**文本加粗** ——文本加粗——
+文本
+*文本斜体 -文本斜体
